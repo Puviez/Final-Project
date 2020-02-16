@@ -15,12 +15,15 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Button from './components/Buttons.js';
 
 class App extends React.Component {
   render () {
     return (
       <View style={styles.container}>
         <Text style={styles.text}>Main Page</Text>
+        <Button text={"Log In"} />
+        <Button text={"Sign Up"} />
       </View>
     )
   }
